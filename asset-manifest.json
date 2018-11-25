@@ -1,13 +1,13 @@
 {
-  "main.css": "/vs-markup/static/css/main.c1badaa8.chunk.css",
-  "main.js": "/vs-markup/static/js/main.a7961c85.chunk.js",
-  "main.js.map": "/vs-markup/static/js/main.a7961c85.chunk.js.map",
+  "main.css": "/vs-markup/static/css/main.efdfa22c.chunk.css",
+  "main.js": "/vs-markup/static/js/main.e8e64597.chunk.js",
+  "main.js.map": "/vs-markup/static/js/main.e8e64597.chunk.js.map",
   "static/js/1.f68dcc1a.chunk.js": "/vs-markup/static/js/1.f68dcc1a.chunk.js",
   "static/js/1.f68dcc1a.chunk.js.map": "/vs-markup/static/js/1.f68dcc1a.chunk.js.map",
   "runtime~main.js": "/vs-markup/static/js/runtime~main.86ddadfa.js",
   "runtime~main.js.map": "/vs-markup/static/js/runtime~main.86ddadfa.js.map",
-  "static/css/main.c1badaa8.chunk.css.map": "/vs-markup/static/css/main.c1badaa8.chunk.css.map",
+  "static/css/main.efdfa22c.chunk.css.map": "/vs-markup/static/css/main.efdfa22c.chunk.css.map",
   "index.html": "/vs-markup/index.html",
-  "precache-manifest.c3d76997c8ee8d608368b60c9e2ba74e.js": "/vs-markup/precache-manifest.c3d76997c8ee8d608368b60c9e2ba74e.js",
+  "precache-manifest.313ae5f55281bc2aefe4cafb07da30de.js": "/vs-markup/precache-manifest.313ae5f55281bc2aefe4cafb07da30de.js",
   "service-worker.js": "/vs-markup/service-worker.js"
 }
