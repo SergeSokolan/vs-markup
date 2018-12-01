@@ -8,10 +8,10 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Router>
-    <div>
+    <main>
       <Route path="/" exact component={App} />
       <Route path="/chat" exact component={Chat} />
-    </div>
+    </main>
   </Router>,
   document.getElementById("root")
 );
