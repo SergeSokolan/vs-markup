@@ -3,9 +3,10 @@ import React, { Component } from "react";
 class Chat extends Component {
   render() {
     return (
-     
-        <h1>Hello, router!</h1>
-
+      <section className="chat">
+        <div className="chat__contacts"></div>
+        <div className="chat__messages"></div>
+      </section>
     );
   }
 }
