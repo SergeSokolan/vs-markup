@@ -25,12 +25,15 @@
     "extends": "react-app"
   },
   "browserslist": [
-    "last 2 version"
+    "last 2 version",
+    "> 1%",
+    "not dead"
   ],
   "devDependencies": {
     "concurrently": "^4.1.0",
     "gh-pages": "^2.0.1",
     "less": "^3.8.1",
-    "less-watch-compiler": "^1.13.0"
+    "less-watch-compiler": "^1.13.0",
+    "react-router-dom": "^4.3.1"
   }
 }
