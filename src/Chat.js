@@ -22,7 +22,7 @@ class Chat extends Component {
               <div className="chat-message">
                 <div className="chat-message__status">
                   <span className="username username_gray">Сергей</span>
-                  <span className="delivery-status" />
+                  <span className="delivery-status delivery-status_read" />
                   <time className="send-time">16:56</time>
                 </div>
 
@@ -45,6 +45,10 @@ class Chat extends Component {
             <span className="user-icon">
               <img src="/images/user.jpg" alt="pic" />
             </span>
+            <div className="user-info">
+              <span className="username username_head">Павел</span>
+              <span className="user-info__recent">был(а) 7 минут назад</span>
+            </div>
             <div className="chat-head__controls">
               <span className="search" />
               <span className="more" />
@@ -56,17 +60,49 @@ class Chat extends Component {
                 <img src="/images/user.jpg" alt="pic" />
               </span>
               <div className="chat-message">
-                <span className="username">Сергей</span>
-                <p className="message">
-                  Да, я понял. Я забыл вчера ключи от гаража – так что уже
-                  вернусь домой за ключами, заберу велик и прикачу сразу
-                </p>
-              </div>
-              <div className="chat-info">
-                <span className="delivery-status" />
-                <time className="send-time">16:56</time>
+                <span className="username username_chat">Сергей</span>
+                <div className="chat-message__item">
+                  <p className="message message_main">
+                    Да, я понял. Я забыл вчера ключи от гаража – так что уже
+                    вернусь домой за ключами, заберу велик и прикачу сразу
+                  </p>
+                  <div className="chat-info">
+                    <span className="delivery-status delivery-status_unread" />
+                    <time className="send-time">16:56</time>
+                  </div>
+                </div>
+                <div className="chat-message__item">
+                  <p className="message message_main">
+                    <img
+                      className="chat-message-img"
+                      src="/images/temp-msg.png"
+                      alt="pic"
+                    />
+                  </p>
+                  <div className="chat-info">
+                    <span className="delivery-status delivery-status_waiting" />
+                    <time className="send-time">16:56</time>
+                  </div>
+                </div>
+                <div className="chat-message__item">
+                  <p className="message message_main">
+                    Да, я понял. Я забыл вчера ключи от гаража – так что уже
+                    вернусь домой за ключами, заберу велик и прикачу сразу
+                  </p>
+                  <div className="chat-info">
+                    <span className="delivery-status delivery-status_error" />
+                    <time className="send-time">16:56</time>
+                  </div>
+                </div>
               </div>
             </div>
+            
+          </div>
+          <div className="chat-textarea">
+            <span className="attaches" />
+            <span className="emotion" />
+            <textarea className="textarea" placeholder="Напишите текст" />
+            <span className="send" />
           </div>
         </div>
       </section>
