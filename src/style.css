@@ -321,14 +321,14 @@ main {
   height: 100%;
   padding-top: 5%;
   box-sizing: border-box;
-  background: url("/images/bg-1.jpg") no-repeat center center fixed;
+  background: url("/vs-markup/images/bg-1.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .vs-logo {
   margin: 0 auto;
   width: 243px;
   height: 62px;
-  background: url("/images/vs-logo.svg") no-repeat center;
+  background: url("/vs-markup/images/vs-logo.svg") no-repeat center;
 }
 .login__form {
   display: flex;
@@ -413,13 +413,13 @@ main {
   text-decoration: none;
 }
 .social-links__link_fb {
-  background: url("/images/fb-logo.svg") no-repeat center;
+  background: url("/vs-markup/images/fb-logo.svg") no-repeat center;
 }
 .social-links__link_tw {
-  background: url("/images/tw-logo.svg") no-repeat center;
+  background: url("/vs-markup/images/tw-logo.svg") no-repeat center;
 }
 .social-links__link_vk {
-  background: url("/images/vk-logo.svg") no-repeat center;
+  background: url("/vs-markup/images/vk-logo.svg") no-repeat center;
 }
 /* colors */
 .chat {
@@ -469,7 +469,7 @@ main {
   background-color: #fff;
   position: relative;
   z-index: 1;
-  background: url(/images/chat-bg.jpg) repeat center;
+  background: url(/vs-markup/images/chat-bg.jpg) repeat center;
 }
 .chat-head {
   padding: 16px;
@@ -567,7 +567,7 @@ main {
   display: block;
   width: 32px;
   height: 32px;
-  background: url(/images/attaches.svg) no-repeat center;
+  background: url(/vs-markup/images/attaches.svg) no-repeat center;
   margin-right: 24px;
 }
 .emotion {
@@ -575,7 +575,7 @@ main {
   display: block;
   width: 32px;
   height: 32px;
-  background: url(/images/smails.svg) no-repeat center;
+  background: url(/vs-markup/images/smails.svg) no-repeat center;
   margin-right: 33px;
 }
 .textarea {
@@ -593,7 +593,7 @@ main {
   display: inline-block;
   padding: 16px;
   border-radius: 50px;
-  background: #eb885f url(/images/send.svg) no-repeat center;
+  background: #eb885f url(/vs-markup/images/send.svg) no-repeat center;
 }
 .chat-message-img {
   display: block;
@@ -637,7 +637,7 @@ main {
   display: inline-block;
   width: 6px;
   height: 24px;
-  background: url(/images/more.svg) no-repeat center;
+  background: url(/vs-markup/images/more.svg) no-repeat center;
 }
 .you {
   padding: 2px 0;
@@ -652,16 +652,16 @@ main {
   height: 18px;
 }
 .delivery-status_read {
-  background: url(/images/readed-message-icon.svg) no-repeat center;
+  background: url(/vs-markup/images/readed-message-icon.svg) no-repeat center;
 }
 .delivery-status_unread {
-  background: url(/images/unread.svg) no-repeat center;
+  background: url(/vs-markup/images/unread.svg) no-repeat center;
 }
 .delivery-status_waiting {
-  background: url(/images/timing.svg) no-repeat center;
+  background: url(/vs-markup/images/timing.svg) no-repeat center;
 }
 .delivery-status_error {
-  background: url(/images/error.svg) no-repeat center;
+  background: url(/vs-markup/images/error.svg) no-repeat center;
 }
 .delivery-status__icon_purple {
   fill: #514a80;
@@ -675,14 +675,14 @@ main {
   width: 23px;
   height: 24px;
   margin-right: 32px;
-  background: url(/images/search.svg) no-repeat center;
+  background: url(/vs-markup/images/search.svg) no-repeat center;
 }
 .write {
   cursor: pointer;
   display: inline-block;
   width: 22px;
   height: 24px;
-  background: url(/images/write-message.svg) no-repeat center;
+  background: url(/vs-markup/images/write-message.svg) no-repeat center;
 }
 .user-icon {
   position: relative;
