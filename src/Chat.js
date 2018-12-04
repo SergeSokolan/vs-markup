@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Textarea from "react-textarea-autosize";
 
 class Chat extends Component {
   render() {
@@ -7,7 +8,7 @@ class Chat extends Component {
         <div className="chat__contacts">
           <div className="chat-head">
             <span className="user-icon">
-              <img src="/vs-markup/images/user.jpg" alt="pic" />
+              <img src="/images/user.jpg" alt="pic" />
             </span>
             <div className="chat-head__controls">
               <span className="search" />
@@ -17,7 +18,7 @@ class Chat extends Component {
           <div className="chat-body">
             <div className="chat-item">
               <span className="user-icon">
-                <img src="/vs-markup/images/user.jpg" alt="pic" />
+                <img src="/images/user.jpg" alt="pic" />
               </span>
               <div className="chat-message">
                 <div className="chat-message__status">
@@ -43,7 +44,7 @@ class Chat extends Component {
         <div className="chat__messages">
           <div className="chat-head chat-head_light-color">
             <span className="user-icon">
-              <img src="/vs-markup/images/user.jpg" alt="pic" />
+              <img src="/images/user.jpg" alt="pic" />
             </span>
             <div className="user-info">
               <span className="username username_head">Павел</span>
@@ -57,7 +58,7 @@ class Chat extends Component {
           <div className="chat-body">
             <div className="chat-item">
               <span className="user-icon">
-                <img src="/vs-markup/images/user.jpg" alt="pic" />
+                <img src="/images/user.jpg" alt="pic" />
               </span>
               <div className="chat-message">
                 <span className="username username_chat">Сергей</span>
@@ -75,7 +76,7 @@ class Chat extends Component {
                   <p className="message message_main">
                     <img
                       className="chat-message-img"
-                      src="/vs-markup/images/temp-msg.png"
+                      src="/images/temp-msg.png"
                       alt="pic"
                     />
                   </p>
@@ -96,12 +97,11 @@ class Chat extends Component {
                 </div>
               </div>
             </div>
-            
           </div>
           <div className="chat-textarea">
             <span className="attaches" />
             <span className="emotion" />
-            <textarea className="textarea" placeholder="Напишите текст" />
+            <Textarea />
             <span className="send" />
           </div>
         </div>
