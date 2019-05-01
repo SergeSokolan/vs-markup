@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/vs-markup/static/js/runtime~main.86ddadfa.js"
   },
   {
-    "revision": "0af4a67293f08c17858d",
-    "url": "/vs-markup/static/js/main.0af4a672.chunk.js"
+    "revision": "0bfe85c3b65a3711677c",
+    "url": "/vs-markup/static/js/main.0bfe85c3.chunk.js"
   },
   {
     "revision": "1bd973d0846f7fca142c",
     "url": "/vs-markup/static/js/1.1bd973d0.chunk.js"
   },
   {
-    "revision": "0af4a67293f08c17858d",
-    "url": "/vs-markup/static/css/main.59e31d2c.chunk.css"
+    "revision": "0bfe85c3b65a3711677c",
+    "url": "/vs-markup/static/css/main.f9ccaf54.chunk.css"
   },
   {
-    "revision": "028a96e20d1cea45567b5c1de53d3f57",
+    "revision": "e983c0b3df1a1c886216f4231c95cfcb",
     "url": "/vs-markup/index.html"
   }
 ];
