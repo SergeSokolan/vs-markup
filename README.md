@@ -4,6 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run dev`
+
+run "start" script with less-watch-compiler
+
+### `npm run deploy`
+
+deploy project
+https://sergesokolan.github.io/vs-markup/
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
