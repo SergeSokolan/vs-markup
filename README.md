@@ -1,3 +1,5 @@
+https://sergesokolan.github.io/vs-markup/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -11,8 +13,6 @@ run "start" script with less-watch-compiler
 ### `npm run deploy`
 
 deploy project
-
-https://sergesokolan.github.io/vs-markup/
 
 ### `npm start`
 
